@@ -5,6 +5,7 @@ const googleAnalyticsTrackingId = process.env.GOOGLE_ANALYTICS_ID
 
 module.exports = {
   siteMetadata: {
+    siteTitle: `The Dumpster Fire Project`,
     siteTitleAlt: `Minimal Blog - Gatsby Theme`,
   },
   flags: {
