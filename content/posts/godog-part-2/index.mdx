@@ -9,7 +9,7 @@ tags:
   - testing
 ---
 Picking up where we left off [in the last post](https://thedumpsterfireproject.com/godog-part-1), I wanted to put forth
-another approach to managing the state between steps within a given scneario. We'll call it AccountTestState. In this approach, 
+another approach to managing the state between steps within a given scenario. We'll call it AccountTestState. In this approach, 
 I'm going to create a struct to track any variables that I want to create or assign in one step and then use or validate in a 
 subsequent step in the same scenario. I'm also going to create a function to reset that state, as we'll want to start each scenario 
 with a clean state. To make things a little more readable, I'm going to pull the anonymous function assigned to the ScenarioInitializer 
@@ -134,13 +134,13 @@ When I run my test now, it passes the same as before. One advantage of taking th
 last post where I simply added and read values from the Context is that it is now more explicit what variables are actually shared between my steps.
 
 While we've introduced the BeforeScenarioHook to make sure we start each scenario with a clean state, let's take a quick look at some of the other hooks.
-There is an AfterScenarioHook, which can be useful to clean up any side effects after your scneario has executed. This is a good time to maybe clean up
+There is an AfterScenarioHook, which can be useful to clean up any side effects after your scenario has executed. This is a good time to maybe clean up
 and files or data that may have been written by your test, or close and selenium browsers. Note that the AfterScenarioHook executes whether your scenario
-passes or fails. The ScnarioContext also has StepContext, which has available a BeforeStepHook and AfterStepHook, where you can add any code to be executed
+passes or fails. The ScenarioContext also has StepContext, which has available a BeforeStepHook and AfterStepHook, where you can add any code to be executed
 before and/or after each step. This can be useful in logging/reporting. Additionally, the AfterStepHook includes a StepResultStatus in its arguments, which
 can be useful in conditionally doing any logging/reporting. For example, if your scenario involves some steps that use a Selenium driver, you could use an
 AfterStepHook to capture any browser screen shots on failing Selenium steps, rather than having to include that log in every step implemenation that uses
-the selenium driver.  Lastly, there BeforeSuite and AfterSuite handlers that execute just one time each at the start and end of your test suite. These may
+the selenium driver.  Lastly, there are BeforeSuite and AfterSuite handlers that execute just one time each at the start and end of your test suite. These may
 be useful in setting up any resources or data that are too expensive to be done before/after each scenario.  For example, you may want to start up and shut
 down a database connection pool before/after your test suite's execution. Just be sure to not set up anything that has some shared that where the execution
 of one scenario would have an effect that bleeds over into subsequent scenarios.
