@@ -101,10 +101,13 @@ tagged for @shopping-cart. Or perhaps we just want to skip anything tagged as @f
 in Godog follow the [behat](http://behat.readthedocs.org/en/v2.5/guides/6.cli.html#gherkin-filters) syntax, where a tilde
 is to negate/exclue a tag, && is used to 'and' two tags, and a comma is used to 'or' two tags.
 A summary of syntax rules are:
-|"@shipping"             |run only scenarios with shipping tag            |
-|"~@wip"                 |exclude all scenarios with wip tag              |
-|"@shipping && ~@wip"    |run shipping scenarios, but exclude wip         |
-|"@issue#129,@issue#137" |run scenarios tagged with issue#129 or issue#137|
+
+| Example | Description |
+| ----------- | ----------- |
+| "@shipping" | run only scenarios with shipping tag |
+| "~@wip" | exclude all scenarios with wip tag |
+| "@shipping && ~@wip" | run shipping scenarios, but exclude wip |
+| "@issue#129,@issue#137" | run scenarios tagged with issue#129 or issue#137 |
 
 Tag filter expressions can include both and's and or's, where the and's are evaluated first and the or's are evalated
 secondarily.
