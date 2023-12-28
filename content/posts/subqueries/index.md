@@ -7,7 +7,7 @@ description: TBD
 tags:
   - SQL
 ---
-Continuing with the sample database available via the docker images from the [first post](sql-for-the-uninterested) in this series, let's look at some
+Continuing with the sample database available via the docker images from the [first post](../sql-for-the-uninterested) in this series, let's look at some
 examples demonstrating the syntax of subqueries. A subquery is where you have a select statement nested inside of another query.
 You might utilize this approach based on performance tuning, the readability of your queries, or out of necessity based on your
 database schemas. A discussion of performance tuning is out of scope of this post. If you're curious about knowing when you
@@ -40,7 +40,7 @@ select name,
                      from inventory
                     where inventory.product_id = product.product_id);
 ```
-![Products with no inventory on hand](./Screen-Shot-2019-11-30-at-8.44.17-PM.png)
+![Products with no inventory on hand](Screen-Shot-2019-11-30-at-8.44.17-PM.png)
 <figcaption align="center">
 
 *Products with no inventory on hand*
@@ -106,7 +106,7 @@ select customer.first_name,
   left join inventory on inventory.product_id = product.product_id
  where inventory.product_id is null;
 ```
-![Back order quantities](./Screen-Shot-2019-11-30-at-11.07.34-AM.png)
+![Back order quantities](Screen-Shot-2019-11-30-at-11.07.34-AM.png)
 <figcaption align="center">
 
 *Back order quantities*

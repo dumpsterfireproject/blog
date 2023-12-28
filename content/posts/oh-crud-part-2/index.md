@@ -7,7 +7,7 @@ description: TBD
 tags:
   - SQL
 ---
-Using the database from the first in the [SQL for the uninterested series](sql-for-the-uninterested), in this post we'll cover
+Using the database from the first in the [SQL for the uninterested series](../sql-for-the-uninterested), in this post we'll cover
 inserts, updates and deletes.
 We'll start with inserts of single rows, multiple rows, and inserts using subqueries. Then we'll look at basic updates and
 performing multiple updates in a single transaction. Finally, we'll cover deleting rows.
@@ -37,7 +37,7 @@ select *
   from address
  where line1 = '6895 Anniversary Point';
 ```
-![Insert statement results](./Screen-Shot-2019-12-07-at-11.04.57-AM.png)
+![Insert statement results](Screen-Shot-2019-12-07-at-11.04.57-AM.png)
 
 Inserting multiple rows at once is similar. Two reasons for inserting multiple rows in one insert statement as opposed to
 running multiple insert statement are first, that all the rows being inserted in a single statement succeed or fail atomically.
@@ -114,7 +114,7 @@ update address
   where 1 = 1; 
 ```
 Note finally that the where clauses for the updates are the same as that of select statements. That is, you can you exists, not
-exists, in, not in, etc. and have [subqueries](subqueries) in the where clause of your update statement.
+exists, in, not in, etc. and have [subqueries](../subqueries) in the where clause of your update statement.
 
 ## Deletes
 

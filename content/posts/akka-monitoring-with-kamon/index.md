@@ -189,7 +189,7 @@ Finally, I was ready to run my application. I started it using sbt run from the 
 localhost:5266 to view the Kamon status page (the default port for the status page) and validated Kamon was running and the
 reporters were started.
 
-![Kamon Status Page](./Screen-Shot-2020-02-27-at-2.53.01-PM.png)
+![Kamon Status Page](Screen-Shot-2020-02-27-at-2.53.01-PM.png)
 
 <figcaption align="center">
 
@@ -200,7 +200,7 @@ reporters were started.
 I was able to navigate to the default port that Kamon has available for Prometheus to scrape data and validate that data were
 indeed available. It took a few seconds until there were data available, but eventually I could see the data.
 
-![Kamon Metrics Data](./Screen-Shot-2020-02-27-at-2.59.36-PM.png)
+![Kamon Metrics Data](Screen-Shot-2020-02-27-at-2.59.36-PM.png)
 
 <figcaption align="center">
 
@@ -210,7 +210,7 @@ indeed available. It took a few seconds until there were data available, but eve
 
 Next I went to my Prometheus service at localhost:9090 to view the data. There were quite a few metrics available.
 
-![Kamon Metrics Available in Prometheus](./Screen-Shot-2020-02-27-at-2.52.41-PM.png)
+![Kamon Metrics Available in Prometheus](Screen-Shot-2020-02-27-at-2.52.41-PM.png)
 
 <figcaption align="center">
 
@@ -221,7 +221,7 @@ Next I went to my Prometheus service at localhost:9090 to view the data. There w
 Next I went to my Grafana service on localhost:3000, created a login, and then configured it to point to the Prometheus service.
 I then has some really nice graphs of my metrics data.
 
-![Displaying Metrics in Grafana](./Screen-Shot-2020-02-27-at-2.55.45-PM.png)
+![Displaying Metrics in Grafana](Screen-Shot-2020-02-27-at-2.55.45-PM.png)
 
 <figcaption align="center">
 
@@ -232,7 +232,7 @@ I then has some really nice graphs of my metrics data.
 Last, I went to my Zipkin service at localhost:9411 and was able to see spans the the messages being sent in my application. I
 could drill down into the details of each span.
 
-![Span Data in Zipkin](./Screen-Shot-2020-02-27-at-2.53.08-PM.png)
+![Span Data in Zipkin](Screen-Shot-2020-02-27-at-2.53.08-PM.png)
 
 <figcaption align="center">
 

@@ -8,7 +8,7 @@ tags:
   - SQL
 ---
 Next in the SQL for the uninterested series, we’ll take a dive into aggregating your data, using some group by clauses.
-We’re still using the [sample database](sql-for-the-uninterested) available via the docker
+We’re still using the [sample database](../sql-for-the-uninterested) available via the docker
 images from the first post in this series. The simplest aggregate query would be to get a count of the number of rows in a given
 table.  We’ll start with a query to count the number of rows in the sales order table.
 ```sql
@@ -124,7 +124,7 @@ select sol.product_id,
  having largest_sale > 500
   order by largest_sale desc;
 ```
-![Results after filtering](./Screen-Shot-2019-11-30-at-9.11.17-AM.png)
+![Results after filtering](Screen-Shot-2019-11-30-at-9.11.17-AM.png)
 
 If we took a look at just product ID 51 nation-wide and compared it to the results above, we see that just one of the seven
 order lines nationwide had a ship-to address in North Carolina.
@@ -144,7 +144,7 @@ select sol.product_id,
         p.name
  having largest_sale > 500
 ```
-![Sales for product ID 51 nationwide](./Screen-Shot-2019-11-30-at-9.26.19-AM.png)
+![Sales for product ID 51 nationwide](Screen-Shot-2019-11-30-at-9.26.19-AM.png)
 <figcaption align="center">
 
 *Sales for product ID 51 nationwide*

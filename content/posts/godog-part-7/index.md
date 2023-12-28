@@ -84,13 +84,13 @@ included some really useful charts that showed a breakdown of coverage by packge
 my to drill down into the details and see which lines of my code were and were not covered.
 
 Summary Data:
-![summary data](./build-summary.png)
+![summary data](build-summary.png)
 
 Charts:
-![charts](./charts.png)
+![charts](charts.png)
 
 Detailed Data by Line:
-![detailed data](./details.png)
+![detailed data](details.png)
 
 The last thing I did was to [add a badge](https://docs.codecov.com/docs/status-badges) for code coverage to
 my git repository.  In my readme file, I just need to add a link like:
@@ -98,7 +98,7 @@ my git repository.  In my readme file, I just need to add a link like:
 [![codecov](https://codecov.io/github/dumpsterfireproject/godog-examples/branch/main/graph/badge.svg?token=NS3QM5LRM5)](https://codecov.io/github/dumpsterfireproject/godog-examples)
 ```
 
-![badge](./badge.png)
+![badge](badge.png)
 
 There is a lot more functionality in Codecov that I plan to explore. But I was glad that it was so simple to
 at least get started. There is a list of common configurations for Codecov available at https://docs.codecov.com/docs/common-recipe-list.

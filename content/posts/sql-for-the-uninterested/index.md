@@ -44,7 +44,7 @@ You can use whichever SQL client you prefer that is compatible with the database
 
 Once you’ve connected to the sample database, you’ll see the tables for the following schema. You can connect using the user/password of luke/skywalker.
 
-![Sample DB Entity Relationship Diagram (ERD)](./Screen-Shot-2019-11-03-at-8.37.17-PM.png "all the things")
+![Sample DB Entity Relationship Diagram (ERD)](Screen-Shot-2019-11-03-at-8.37.17-PM.png "all the things")
 
 <figcaption align="center">
 

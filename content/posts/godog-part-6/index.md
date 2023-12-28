@@ -111,22 +111,22 @@ described in [this post on artima.com](https://www.artima.com/weblogs/viewpost.j
 Some samples from my configuration are as follows.
 
 The test tab for a passing test:
-![The test tab for a passing test](./passing.png)
+![The test tab for a passing test](passing.png)
 
 The test tab for a failing test:
-![The test tab for a failing test](./failure.png)
+![The test tab for a failing test](failure.png)
 
 The test tab for a failing test, details expanded:
-![The test tab for a failing test, details expanded](./failure-detail.png)
+![The test tab for a failing test, details expanded](failure-detail.png)
 
 The feature pretty output from the logs:
-![The feature pretty output from the logs](./logs.png)
+![The feature pretty output from the logs](logs.png)
 
 The Insights page in circlecli:
-![The Insights page in circlecli](./insights.png)
+![The Insights page in circlecli](insights.png)
 
 The badges from my test results added to my github repository:
-![The badges from my test results added to my github repository](./badges.png)
+![The badges from my test results added to my github repository](badges.png)
 
 One final note - there is an option of building your own custom formatter in Godog. I have not tried implementing one as of this time. But an example can be found in the Godog project repository at https://github.com/cucumber/godog/tree/main/_examples/custom-formatter.
 

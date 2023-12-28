@@ -1,0 +1,7 @@
+baseURL = 'https://thedumpsterfireproject.com'
+languageCode = 'en-us'
+title = 'The Dumpster Fire Project'
+theme = ['hugo-flex']
+[params]
+  favicon = false 
+  summaries = true 

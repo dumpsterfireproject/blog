@@ -7,7 +7,7 @@ description: TBD
 tags:
   - SQL
 ---
-Again using the sample database available via the docker images from the [first post](sql-for-the-uninterested) in this series,
+Again using the sample database available via the docker images from the [first post](../sql-for-the-uninterested) in this series,
 lets cover unions. When using a union, you can combine results from two result sets into a single result set. This might be
 useful during reporting, or having your application make one call to your database instead of multiple, avoiding what might be
 an unnecessary round trip over the network to your database.
@@ -38,7 +38,7 @@ select product.name,
  where product.product_id in (51,52)
  group by product.name
 ```
-![Results from the union query](./Screen-Shot-2019-11-30-at-11.07.44-PM.png)
+![Results from the union query](Screen-Shot-2019-11-30-at-11.07.44-PM.png)
 <figcaption align="center">
 
 *Results from the union query*
@@ -58,7 +58,7 @@ select distinct city, state_province
  where city in ('Alexandria', 'Charleston')
    and state_province in ('WV', 'VA')
 ```
-![Results from the first query](./Screen-Shot-2019-11-30-at-11.39.56-PM.png)
+![Results from the first query](Screen-Shot-2019-11-30-at-11.39.56-PM.png)
 ```sql
 select distinct city
   from address
@@ -70,7 +70,7 @@ select distinct city
  where city in ('Alexandria', 'Charleston')
    and state_province in ('WV', 'VA')
 ```
-![Results from the second query](./Screen-Shot-2019-11-30-at-11.40.12-PM.png)
+![Results from the second query](Screen-Shot-2019-11-30-at-11.40.12-PM.png)
 ```sql
 select distinct city
   from address
@@ -82,7 +82,7 @@ select distinct city
  where city in ('Alexandria', 'Charleston')
    and state_province in ('WV', 'VA')
 ```
-![Results from the third query](./Screen-Shot-2019-11-30-at-11.40.23-PM.png)
+![Results from the third query](Screen-Shot-2019-11-30-at-11.40.23-PM.png)
 
 In the first query, there are no duplicated rows, because the second column differentiates the results of the first select from
 that of the second select. So the combined results contains 4 rows. In the second query, the same values are returned in both

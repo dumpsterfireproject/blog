@@ -8,7 +8,7 @@ tags:
   - SQL
 ---
 Continuing with the “SQL for the Uninterested” posts, let’s talk about joining two or more tables together to produce a single
-result set. There are 4 kinds of joins. To discuss these, let’s use the customer and address tables from our [sample database](sql-for-the-uninterested).
+result set. There are 4 kinds of joins. To discuss these, let’s use the customer and address tables from our [sample database](../sql-for-the-uninterested).
 
 ## Join (aka Inner Join)
 
@@ -17,7 +17,7 @@ Let’s start with our sales order data, writing a simple query.
 select *
   from sales_order;
 ```
-![Data from the sales_order table](./Screen-Shot-2019-11-13-at-9.12.30-PM.png)
+![Data from the sales_order table](Screen-Shot-2019-11-13-at-9.12.30-PM.png)
 <figcaption align="center">
 
 *Data from the sales_order table*
@@ -40,7 +40,7 @@ select sales_order_id,
   join customer on customer.customer_id = sales_order.customer_id
   join address on address.address_id = sales_order.ship_to_address_id
 ```
-![Sales orders with customer and shipping addresses](./Screen-Shot-2019-11-13-at-9.30.32-PM.png)
+![Sales orders with customer and shipping addresses](Screen-Shot-2019-11-13-at-9.30.32-PM.png)
 <figcaption align="center">
 
 *Sales orders with customer and shipping addresses*
@@ -65,7 +65,7 @@ select so.sales_order_id as order_number,
    join customer as c on c.customer_id = so.customer_id
    join address as a on a.address_id = so.ship_to_address_id
 ```
-![Results after aliasing some columns](./Screen-Shot-2019-11-14-at-7.58.12-PM.png)
+![Results after aliasing some columns](Screen-Shot-2019-11-14-at-7.58.12-PM.png)
 <figcaption align="center">
 
 *Results after aliasing some columns*
@@ -92,7 +92,7 @@ select p.product_id,
    join sales_order_line as s on s.product_id = p.product_id
   where p.product_id in (1, 106);
 ```
-![Sales order lines for given products](./Screen-Shot-2019-11-14-at-9.50.05-PM.png)
+![Sales order lines for given products](Screen-Shot-2019-11-14-at-9.50.05-PM.png)
 <figcaption align="center">
 
 *Sales order lines for given products*
@@ -111,7 +111,7 @@ That query returns no rows for Cookie Double Choco. If we wanted to list that pr
    left join sales_order_line as s on s.product_id = p.product_id
   where p.product_id in (1, 106);
 ```
-![Left outer join results](./Screen-Shot-2019-11-14-at-9.54.45-PM.png)
+![Left outer join results](Screen-Shot-2019-11-14-at-9.54.45-PM.png)
 <figcaption align="center">
 
 *Left outer join results*
@@ -150,7 +150,7 @@ select p.product_id,
    left join sales_order_line as s on s.product_id = p.product_id
   where s.sales_order_id is null;
 ```
-![Product with no orders](./Screen-Shot-2019-11-14-at-10.08.54-PM.png)
+![Product with no orders](Screen-Shot-2019-11-14-at-10.08.54-PM.png)
 <figcaption align="center">
 
 *Product with no orders*

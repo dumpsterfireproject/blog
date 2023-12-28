@@ -32,7 +32,7 @@ select *
   from address;
 ```
 
-![Address data](./Screen-Shot-2019-11-04-at-8.32.29-PM.png)
+![Address data](Screen-Shot-2019-11-04-at-8.32.29-PM.png)
 <figcaption align="center">
 
 *You may need to keep scrolling to the end of your result set to get a complete row count, depending on which SQL editor you're using.*
@@ -76,7 +76,7 @@ select *
     or city = 'Springfield';
 ```
 
-![Addresses in cities named Wilmington or Springfield](./Screen-Shot-2019-11-04-at-8.35.35-PM.png)
+![Addresses in cities named Wilmington or Springfield](Screen-Shot-2019-11-04-at-8.35.35-PM.png)
 <figcaption align="center">
 
 *Addresses in cities named Wilmington or Springfield*
@@ -182,7 +182,7 @@ sales_order_line table (762 rows).  You'll see the special_instructions field co
 select * from sales_order_line;
 ```
 
-![DBeaver displaying null values in the sales_order_line table](./Screen-Shot-2019-11-04-at-9.11.36-PM.png)
+![DBeaver displaying null values in the sales_order_line table](Screen-Shot-2019-11-04-at-9.11.36-PM.png)
 <figcaption align="center">
 
 *DBeaver displaying null values in the sales_order_line table*
