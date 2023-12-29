@@ -1,7 +1,39 @@
 baseURL = 'https://thedumpsterfireproject.com'
 languageCode = 'en-us'
 title = 'The Dumpster Fire Project'
-theme = ['hugo-flex']
+theme = ['anubis']
+enableRobotsTXT = true
+paginate = 10
+
+[menu]
+
+[[menu.main]]
+identifier = "about"
+name = "About"
+url = "/about/"
+weight = 1
+
+[[menu.main]]
+identifier = "tags"
+name = "Tags"
+url = "/tags/"
+weight = 2
+
+[[menu.main]]
+name = "Archive"
+identifier = "archive"
+url = "/posts/"
+weight = 3
+
+[taxonomies]
+category = "categories"
+tag = "tags"
+
+
 [params]
+  mainSections = [ 'posts' ]
   favicon = false 
   summaries = true 
+  disableSummary = false
+  style = 'light'
+
