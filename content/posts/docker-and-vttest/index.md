@@ -2,7 +2,6 @@
 title: "Docker and VT Test"
 date: 2020-01-03
 slug: "/docker-and-vttest"
-canonicalUrl: "https://thedumpsterfireproject.com"
 description: TBD
 tags:
   - Testing

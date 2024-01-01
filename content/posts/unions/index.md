@@ -2,7 +2,6 @@
 title: "Unions"
 date: 2019-12-02
 slug: "/unions"
-canonicalUrl: "https://thedumpsterfireproject.com"
 description: TBD
 tags:
   - SQL

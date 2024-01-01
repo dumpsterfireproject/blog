@@ -2,7 +2,6 @@
 title: "Oh, Crud!"
 date: 2019-11-05
 slug: "/oh-crud"
-canonicalUrl: "https://thedumpsterfireproject.com"
 description: SQL create, read, update, delete commands.
 tags:
   - SQL

@@ -2,7 +2,6 @@
 title: "Join Now!"
 date: 2019-11-15
 slug: "/join-now"
-canonicalUrl: "https://thedumpsterfireproject.com"
 description: TBD
 tags:
   - SQL

@@ -2,7 +2,6 @@
 title: "Intro to Godog, Part 3: Tabular and Multi-Line Data"
 date: 2022-04-27
 slug: "/godog-part-3"
-canonicalUrl: "https://thedumpsterfireproject.com"
 description: Data tables, example tables, and doc strings
 tags:
   - Go

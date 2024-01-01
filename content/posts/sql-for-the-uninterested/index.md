@@ -2,7 +2,6 @@
 title: "SQL for the Uninterested"
 date: 2019-11-04
 slug: "/sql-for-the-uninterested"
-canonicalUrl: "https://thedumpsterfireproject.com"
 description: A brief introduction to SQL.
 tags:
   - SQL

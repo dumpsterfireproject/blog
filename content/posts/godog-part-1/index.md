@@ -2,7 +2,6 @@
 title: "Intro to Godog, Part 1"
 date: 2022-04-24
 slug: "/godog-part-1"
-canonicalUrl: "https://thedumpsterfireproject.com"
 description: An Introduction to Godog
 tags:
   - Go

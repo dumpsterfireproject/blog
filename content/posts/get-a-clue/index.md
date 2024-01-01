@@ -2,7 +2,6 @@
 title: "Get a Clue"
 date: 2019-12-28
 slug: "/get-a-clue"
-canonicalUrl: "https://thedumpsterfireproject.com"
 description: TBD
 tags:
   - Testing

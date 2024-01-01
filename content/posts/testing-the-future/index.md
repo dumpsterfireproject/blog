@@ -2,7 +2,6 @@
 title: "Testing the Future"
 date: 2020-01-17
 slug: "/testing-the-future"
-canonicalUrl: "https://thedumpsterfireproject.com"
 description: TBD
 tags:
   - Testing

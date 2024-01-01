@@ -2,7 +2,6 @@
 title: "Aggregate Queries"
 date: 2019-11-30
 slug: "/aggregate-queries"
-canonicalUrl: "https://thedumpsterfireproject.com"
 description: TBD
 tags:
   - SQL

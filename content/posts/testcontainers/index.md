@@ -2,7 +2,6 @@
 title: "Using Testcontainers-go In Your Integration Tests"
 date: 2022-06-23
 slug: "/testcontainers-go"
-canonicalUrl: "https://thedumpsterfireproject.com"
 description: Intro to using testcontainers in integration tests
 tags:
   - Go

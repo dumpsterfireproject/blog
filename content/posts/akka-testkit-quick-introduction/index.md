@@ -2,7 +2,6 @@
 title: "Akka TestKit Quick Introduction"
 date: 2020-02-07
 slug: "/akka-testkit-quick-introduction"
-canonicalUrl: "https://thedumpsterfireproject.com"
 description: TBD
 tags:
   - Testing

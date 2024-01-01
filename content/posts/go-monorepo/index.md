@@ -2,7 +2,6 @@
 title: "Go Monorepos"
 date: 2022-02-02
 slug: "/go-monorepo"
-canonicalUrl: "https://thedumpsterfireproject.com"
 description: Announcement of the migration to gatsby from wordpress
 tags:
   - Go

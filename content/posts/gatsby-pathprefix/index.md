@@ -2,7 +2,6 @@
 title: "Gatsby Path Prefix and Docker Build"
 date: 2022-01-05
 slug: "/gatsy-path-prefix"
-canonicalUrl: "https://thedumpsterfireproject.com"
 description: Quick note on path prefix
 tags:
   - Gatsby

@@ -2,7 +2,6 @@
 title: "Creating an Oracle 12c Container for Development"
 date: 2020-03-12
 slug: "/creating-an-oracle-12c-container-for-development"
-canonicalUrl: "https://thedumpsterfireproject.com"
 description: TBD
 tags:
   - Docker

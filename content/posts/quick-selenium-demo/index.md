@@ -2,7 +2,6 @@
 title: "Quick Selenium Demo"
 date: 2020-02-21
 slug: "/quick-selenium-demo"
-canonicalUrl: "https://thedumpsterfireproject.com"
 description: TBD
 tags:
   - Testing

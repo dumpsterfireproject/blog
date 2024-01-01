@@ -2,7 +2,6 @@
 title: "OptionValues, EitherValues, and TryValues"
 date: 2020-01-03
 slug: "/optionvalues-eithervalues-and-tryvalues"
-canonicalUrl: "https://thedumpsterfireproject.com"
 description: TBD
 tags:
   - Testing

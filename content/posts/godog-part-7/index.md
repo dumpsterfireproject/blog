@@ -2,7 +2,6 @@
 title: "Intro to Godog, Part 7: Adding Code Coverage Reports"
 date: 2022-06-01
 slug: "/godog-part-7"
-canonicalUrl: "https://thedumpsterfireproject.com"
 description: Intro to reporting with Godog, codecov
 tags:
   - Go

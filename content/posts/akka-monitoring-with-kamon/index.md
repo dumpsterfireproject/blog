@@ -2,7 +2,6 @@
 title: "Akka Monitoring With Kamon"
 date: 2020-03-04
 slug: "/akka-monitoring-with-kamon"
-canonicalUrl: "https://thedumpsterfireproject.com"
 description: TBD
 tags:
   - Monitoring

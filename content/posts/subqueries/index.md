@@ -2,7 +2,6 @@
 title: "Subqueries"
 date: 2019-12-01
 slug: "/subqueries"
-canonicalUrl: "https://thedumpsterfireproject.com"
 description: TBD
 tags:
   - SQL

@@ -2,7 +2,6 @@
 title: "Intro to Godog, Part 5: Rules"
 date: 2022-05-02
 slug: "/godog-part-5"
-canonicalUrl: "https://thedumpsterfireproject.com"
 description: Intro to rules in Godog
 tags:
   - Go

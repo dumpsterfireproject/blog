@@ -2,7 +2,6 @@
 title: "Intro to Godog, Part 4: Backgrounds and Tags"
 date: 2022-04-30
 slug: "/godog-part-4"
-canonicalUrl: "https://thedumpsterfireproject.com"
 description: Background and Tag Usage
 tags:
   - Go

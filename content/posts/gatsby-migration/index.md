@@ -2,7 +2,6 @@
 title: "Gatsby Migration Complete"
 date: 2021-06-22
 slug: "/gatsy-migration"
-canonicalUrl: "https://thedumpsterfireproject.com"
 description: Announcement of the migration to gatsby from wordpress
 tags:
   - Gatsby

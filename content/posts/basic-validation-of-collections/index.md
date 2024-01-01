@@ -2,7 +2,6 @@
 title: "Basic Validation of Collections"
 date: 2020-03-19
 slug: "/basic-validation-of-collections"
-canonicalUrl: "https://thedumpsterfireproject.com"
 description: TBD
 tags:
   - Scala

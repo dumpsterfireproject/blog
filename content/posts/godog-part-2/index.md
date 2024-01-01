@@ -2,7 +2,6 @@
 title: "Intro to Godog, Part 2: A Better Approach to Context & Using Hooks"
 date: 2022-04-25
 slug: "/godog-part-2"
-canonicalUrl: "https://thedumpsterfireproject.com"
 description: Better handling of context between steps
 tags:
   - Go

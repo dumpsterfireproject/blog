@@ -2,7 +2,6 @@
 title: "ScalaTest – On Test Fixtures"
 date: 2019-12-21
 slug: "/scalatest-on-test-fixtures"
-canonicalUrl: "https://thedumpsterfireproject.com"
 description: TBD
 tags:
   - Testing

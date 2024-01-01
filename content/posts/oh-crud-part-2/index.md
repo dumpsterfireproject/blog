@@ -2,7 +2,6 @@
 title: "Oh crud, part 2"
 date: 2019-12-07
 slug: "/oh-crud-part-2"
-canonicalUrl: "https://thedumpsterfireproject.com"
 description: TBD
 tags:
   - SQL

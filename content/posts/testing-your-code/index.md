@@ -2,7 +2,6 @@
 title: "Testing Your Code"
 date: 2019-12-15
 slug: "/testing-your-code"
-canonicalUrl: "https://thedumpsterfireproject.com"
 description: TBD
 tags:
   - Testing

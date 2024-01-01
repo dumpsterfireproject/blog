@@ -2,7 +2,6 @@
 title: "Intro to Godog, Part 6: Reporting"
 date: 2022-05-22
 slug: "/godog-part-6"
-canonicalUrl: "https://thedumpsterfireproject.com"
 description: Intro to reporting with Godog
 tags:
   - Go

@@ -2,7 +2,6 @@
 title: "DRYer Tests"
 date: 2020-01-24
 slug: "/dryer-tests"
-canonicalUrl: "https://thedumpsterfireproject.com"
 description: TBD
 tags:
   - Testing

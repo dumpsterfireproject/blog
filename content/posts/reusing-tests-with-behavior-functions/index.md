@@ -2,7 +2,6 @@
 title: "Reusing Tests with Behavior Functions"
 date: 2020-01-31
 slug: "/reusing-tests-with-behavior-functions"
-canonicalUrl: "https://thedumpsterfireproject.com"
 description: TBD
 tags:
   - Testing
