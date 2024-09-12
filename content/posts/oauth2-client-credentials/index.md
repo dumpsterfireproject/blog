@@ -21,6 +21,41 @@ Behind this form was a mutation in our GraphQL API, which triggered a POST to th
 to create the new application in Azure B2C. 
 The OID of the new application was associated with the user's subscription in our database for subsequent use.
 
+> ℹ️ The guide [Set up OAuth 2.0 client credentials flow in Azure Active Directory B2C](https://learn.microsoft.com/en-us/azure/active-directory-b2c/client-credentials-grant-flow?pivots=b2c-user-flow) 
+from the microsoft website was enormously valuable in getting this all set up. Particularly useful was in Step 5 of the guide,
+where it covers opening the manifest and adding the `appRoles` to the json of the manifest. For our application that
+our users will be generating the token via the client credentials OAuth2 flow, this was where the values for the
+`appWriteRoleID` and `appReadRoleID` variables mentioned in the next paragraph were generated. The new `appRoles` section looked
+very similar to the snippet below, with new UUIDs generated manually for the id of each before adding this to the manifest and saving.
+```json
+    "appRoles": [
+        {
+            "allowedMemberTypes": [
+                "Application"
+            ],
+            "description": "Writers have the ability to create tasks.",
+            "displayName": "Write",
+            "id": "00d5d19c-b2c9-48ae-97c4-f6eb6247f84b",
+            "isEnabled": true,
+            "lang": null,
+            "origin": "Application",
+            "value": "app.write"
+        },
+        {
+            "allowedMemberTypes": [
+                "Application"
+            ],
+            "description": "Readers have the ability to read tasks.",
+            "displayName": "Read",
+            "id": "3460d7a5-c5e3-4499-be45-550d40ec2cea",
+            "isEnabled": true,
+            "lang": null,
+            "origin": "Application",
+            "value": "app.read"
+        }
+    ],
+```
+
 To create the new client application in the MS Graph API, the body of the post contained the display name entered by the user.
 We also wanted to specify the [signInAudience](https://learn.microsoft.com/en-us/graph/api/resources/application?view=graph-rest-1.0#signinaudience-values)
 to allow "Accounts in any organizational directory and personal Microsoft accounts." If not specified, the default is AzureADMyOrg,
